@@ -20,7 +20,7 @@ app.get('/sobre', (request, response) => {
 
 const port = 8081
 //Meu servidor irá rodar nesta porta.
-//Não pode ter nada abaixo dessa função, por que se o seu servidor não vai rodar.
+//Não pode ter nada abaixo dessa função, por que se o seu servidor não vai rodar
 app.listen(port, function(){
     console.log(`Servidor rodando na porta ${port}`)
 })
